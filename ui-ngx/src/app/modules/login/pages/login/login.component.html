@@ -21,7 +21,8 @@
       <form class="tb-login-form" [formGroup]="loginFormGroup" (ngSubmit)="login()">
         <fieldset [disabled]="isLoading$ | async" fxLayout="column">
           <div fxLayout="column" fxLayoutAlign="start center" style="padding: 15px 0;">
-            <tb-logo class="login-logo"></tb-logo>
+            <!-- <tb&#45;logo class="login&#45;logo"></tb&#45;logo> -->
+            <span>Nibiaa devices</span>
           </div>
           <mat-progress-bar color="warn" mode="indeterminate" *ngIf="isLoading$ | async">
           </mat-progress-bar>
