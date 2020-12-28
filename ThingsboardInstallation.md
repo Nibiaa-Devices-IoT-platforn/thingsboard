@@ -63,7 +63,7 @@ Step 2. :
 
 #Now, Start the Postgres Server
 
-    	sudo service postgres start
+    	sudo service postgresql start
 
 # Set-up DB
 
